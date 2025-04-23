@@ -1,0 +1,139 @@
+{
+    "control":[
+        { "VTOY_DEFAULT_MENU_MODE": "1" },
+        { "VTOY_DEFAULT_SEARCH_ROOT": "/Iso" }
+    ],
+    "theme":{
+        "file":[
+            "/ventoy/themes/Acheron/theme.txt",
+            "/ventoy/themes/Argenti/theme.txt",
+            "/ventoy/themes/Aventurine/theme.txt",
+            "/ventoy/themes/BlackSwan/theme.txt",
+            "/ventoy/themes/Boothill/theme.txt",
+            "/ventoy/themes/Dr.Ratio/theme.txt",
+            "/ventoy/themes/Firefly/theme.txt",
+            "/ventoy/themes/Hanya/theme.txt",
+            "/ventoy/themes/Huohuo/theme.txt",
+            "/ventoy/themes/Jade/theme.txt",
+            "/ventoy/themes/Jiaoqiu/theme.txt",
+            "/ventoy/themes/Jingliu/theme.txt",
+            "/ventoy/themes/Luocha/theme.txt",
+            "/ventoy/themes/March7th-TheHunt/theme.txt",
+            "/ventoy/themes/Robin/theme.txt",
+            "/ventoy/themes/RuanMei/theme.txt",
+            "/ventoy/themes/Sparkle/theme.txt",
+            "/ventoy/themes/Yunli/theme.txt"
+        ],
+        "gfxmode": "max",
+        "display_mode": "GUI",
+        "ventoy_left": "100%",
+        "ventoy_top": "95%",
+        "ventoy_color": "#000000"
+    },
+    "menu_class":[
+        {
+            "dir": "/Iso/Linux",
+            "class": "linux"
+        },
+        {
+            "dir": "/Iso/Linux/Arch",
+            "class": "arch"
+        },
+        {
+            "key": "arch",
+            "class": "arch"
+        },
+        {
+            "dir": "/Iso/Linux/Arch/Manjaro",
+            "class": "manjaro"
+        },
+        {
+            "key": "manjaro",
+            "class": "manjaro"
+        },               
+        {
+            "dir": "/Iso/Linux/Debian",
+            "class": "debian"
+        },
+        {
+            "key": "debian",
+            "class": "debian"
+        },
+        {
+            "dir": "/Iso/Linux/Debian/Linux Mint",
+            "class": "linuxmint"
+        },
+        {
+            "key": "lmde",
+            "class": "linuxmint"
+        },
+        {
+            "dir": "/Iso/Linux/Debian/MX",
+            "class": "mx-linux"
+        },
+        {
+            "key": "MX",
+            "class": "mx-linux"
+        },
+        {
+            "dir": "/Iso/Linux/Debian/Ubuntu",
+            "class": "ubuntu"
+        },
+        {
+            "key": "ubuntu",
+            "class": "ubuntu"
+        },
+        {
+            "dir": "/Iso/Linux/Debian/Ubuntu/Elementary",
+            "class": "elementary"
+        },
+        {
+            "key": "elementaryos",
+            "class": "elementary"
+        },
+        {
+            "dir": "/Iso/Linux/Debian/Ubuntu/Linux Mint",
+            "class": "linuxmint"
+        },
+        {
+            "key": "linuxmint",
+            "class": "linuxmint"
+        },
+        {
+            "dir": "/Iso/Linux/Debian/Ubuntu/Pop",
+            "class": "pop"
+        },
+        {
+            "key": "pop",
+            "class": "pop"
+        },                    
+        {
+            "dir": "/Iso/Windows",
+            "class": "windows11"
+        },
+        {
+            "dir": "/Iso/Windows/10",
+            "class": "windows"
+        },
+        {
+            "key": "tiny10",
+            "class": "windows"
+        },
+        {
+            "key": "Win10",
+            "class": "windows"
+        },        
+        {
+            "dir": "/Iso/Windows/11",
+            "class": "windows11"
+        },
+        {
+            "key": "tiny11",
+            "class": "windows11"
+        },
+        {
+            "key": "Win11",
+            "class": "windows11"
+        }                        
+    ]
+}
