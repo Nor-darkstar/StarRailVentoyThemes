@@ -1,0 +1,96 @@
+title-text: ""
+desktop-image: "background.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-border: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+
++ boot_menu {
+  left = 104
+  top = 47%
+  width = 472
+  height = 35%
+  item_color = "#cccccc"
+  selected_item_color = "#ffffff"
+  item_icon_space = 15
+  item_height = 45
+  item_padding = 2
+  item_spacing = 40
+  selected_item_pixmap_style = "select_*.png"
+}
+
++ label {
+  left = 104
+  top = 84%
+  align = "center"
+  id = "__timeout__"
+  text = "Selected OS will start in %d seconds"
+  color = "#cccccc"
+}
+
+
+
++ progress_bar {
+  id = "__timeout__"
+  text = "@TIMEOUT_NOTIFICATION_SHORT@"
+
+  left = 90%
+  width = 10%
+  top = 90%
+
+  text_color = "red"
+  bar_style = "*"
+  highlight_style = "*"
+}
+
++ hbox{ 
+    left = 5%
+    top = 95%
+    width = 10%
+    height = 25
+    + label {text = "@VTOY_HOTKEY_TIP@" color = "white" align = "left"} 
+}
+
+
++ hbox{ 
+    left = 30%
+    top = 95%-25
+    width = 10%
+    height = 25
+    + label {text = "@VTOY_MEM_DISK@" color = "red" align = "left"} 
+}
+
+
++ hbox{ 
+    left = 30%
+    top = 95%-50
+    width = 10%
+    height = 25
+    + label {text = "@VTOY_ISO_RAW@" color = "red" align = "left"} 
+}
+
+
++ hbox{ 
+    left = 30%+200
+    top = 95%-50
+    width = 10%
+    height = 25
+    + label {text = "@VTOY_GRUB2_MODE@" color = "red" align = "left"} 
+}
+
++ hbox{ 
+    left = 30%+200
+    top = 95%-25
+    width = 10%
+    height = 25
+    + label {text = "@VTOY_WIMBOOT_MODE@" color = "red" align = "left"} 
+}
+
++ hbox{ 
+    left = 90%
+    top = 55 
+    width = 10%
+    height = 25
+    + label {text = "@VTOY_ISO_UEFI_DRV@" color = "red" align = "left"} 
+}
